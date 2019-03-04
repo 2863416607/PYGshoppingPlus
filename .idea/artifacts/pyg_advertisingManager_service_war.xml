@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pyg-advertisingManager-service:war">
+    <output-path>$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-advertisingManager-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pyg-advertisingManager-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pyg-advertisingManager-service.war">
+      <element id="artifact" artifact-name="pyg-advertisingManager-service:war exploded" />
+    </root>
+  </artifact>
+</component>

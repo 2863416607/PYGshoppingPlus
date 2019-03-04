@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pyg-operatorManagerBackground-web:war">
+    <output-path>$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-operatorManagerBackground-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pyg-operatorManagerBackground-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pyg-operatorManagerBackground-web.war">
+      <element id="artifact" artifact-name="pyg-operatorManagerBackground-web:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pyg-commondity-service:war">
+    <output-path>$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-commondity-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pyg-commondity-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pyg-commondity-service.war">
+      <element id="artifact" artifact-name="pyg-commondity-service:war exploded" />
+    </root>
+  </artifact>
+</component>

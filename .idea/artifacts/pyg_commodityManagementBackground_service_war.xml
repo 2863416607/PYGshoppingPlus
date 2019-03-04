@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pyg-commodityManagementBackground-service:war">
+    <output-path>$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-commodityManagementBackground-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pyg-commodityManagementBackground-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pyg-commodityManagementBackground-service.war">
+      <element id="artifact" artifact-name="pyg-commodityManagementBackground-service:war exploded" />
+    </root>
+  </artifact>
+</component>

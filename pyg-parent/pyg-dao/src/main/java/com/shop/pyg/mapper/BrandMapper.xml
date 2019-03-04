@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shop.pyg.mapper.BrandMapper" >
+  <resultMap id="BaseResultMap" type="com.shop.pyg.domain.Brand" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="first_char" property="firstChar" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <select id="selectOptionList" resultType="java.util.Map">
+  	select id ,name AS text from tb_brand
+  </select>
+  
+</mapper>

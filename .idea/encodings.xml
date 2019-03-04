@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/pyg-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-businessManagementIndenx-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-businessManagementIndenx-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-businessManagerBackground-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-commodityManagement-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-commodityManagement-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-commondity-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-commondity-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-newlycommodity-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-newlycommodity-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-advertisingManager-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-advertisingManager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-businessManager-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-businessManager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-commodityManagementBackGround-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-commodityManagementBackground-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-operatorManagerBackground-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-websiteFrontDesk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-websiteFrontDesk/pyg-search-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-websiteFrontDesk/pyg-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-websiteFrontDesk/pyg-search-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-websiteFrontDesk/pyg-websiteFrontDesk-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-websiteFrontDesk/pyg-websiteFrontDesk-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-websiteFrontDesk/pyg-websiteFrontDesk-web" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

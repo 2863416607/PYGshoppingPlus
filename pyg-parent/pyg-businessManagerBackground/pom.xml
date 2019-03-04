@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>pyg-parent</artifactId>
+        <groupId>com.shop.pyg</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>pyg-businessManagerBackground</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>pyg-businessManagerBackground-web</module>
+        <module>pyg-newlycommodity-interface</module>
+        <module>pyg-newlycommodity-service</module>
+        <module>pyg-commodityManagement-interface</module>
+        <module>pyg-commodityManagement-service</module>
+        <module>pyg-businessManagementIndenx-interface</module>
+        <module>pyg-businessManagementIndenx-service</module>
+        <module>pyg-commondity-interface</module>
+        <module>pyg-commondity-service</module>
+    </modules>
+
+
+</project>

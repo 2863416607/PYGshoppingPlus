@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pyg-websiteFrontDesk-web:war">
+    <output-path>$PROJECT_DIR$/pyg-parent/pyg-websiteFrontDesk/pyg-websiteFrontDesk-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pyg-websiteFrontDesk-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pyg-websiteFrontDesk-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pyg-websiteFrontDesk-web:war exploded" />
+    </root>
+  </artifact>
+</component>

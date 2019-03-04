@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pyg-newlycommodity-service:war">
+    <output-path>$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-newlycommodity-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pyg-newlycommodity-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pyg-newlycommodity-service.war">
+      <element id="artifact" artifact-name="pyg-newlycommodity-service:war exploded" />
+    </root>
+  </artifact>
+</component>

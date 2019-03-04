@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
+
+<context:component-scan base-package="com.shop.pyg.mapper"/>
+
+    <!-- 加载配置文件 -->
+    <context:property-placeholder location="classpath*:*.properties" />
+
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${driverClassName}"/>
+        <property name="url" value="${url}"/>
+  <!--      <property name="username" value="${username}"/>
+        <property name="password" value="${password}"/>-->
+        <property name="initialSize" value="${initialSize}"/>
+        <property name="maxActive" value="${maxActive}"/>
+        <property name="minIdle" value="${minIdle}"/>
+        <property name="maxWait" value="${maxWait}"/>
+    </bean>
+
+        <bean id="sqlSessionFactory" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">
+            <property name="dataSource" ref="dataSource"/>
+                    <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"/>
+            <property name="globalConfig" ref="config"/>
+         <!--   <property name="configuration" ref="configuration"/>-->
+            <property name="typeAliasesPackage" value="com.shop.pyg.domain"/>
+        </bean>
+
+        <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+            <property name="basePackage" value="com.shop.pyg.mapper"/>
+        </bean>
+
+
+        <bean id="config" class="com.baomidou.mybatisplus.core.config.GlobalConfig">
+            <property name="dbConfig">
+                <bean class="com.baomidou.mybatisplus.core.config.GlobalConfig.DbConfig">
+                    <property name="dbType" value="MYSQL"/>
+                    <property name="idType" value="AUTO"/>
+                </bean>
+            </property>
+        </bean>
+</beans>

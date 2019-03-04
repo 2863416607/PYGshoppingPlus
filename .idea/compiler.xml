@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pyg-advertisingManager-interface" />
+        <module name="pyg-advertisingManager-service" />
+        <module name="pyg-businessManagementIndenx-interface" />
+        <module name="pyg-businessManagementIndenx-service" />
+        <module name="pyg-businessManager-interface" />
+        <module name="pyg-businessManager-service" />
+        <module name="pyg-businessManagerBackground-web" />
+        <module name="pyg-commodityManagement-interface" />
+        <module name="pyg-commodityManagement-service" />
+        <module name="pyg-commodityManagementBackGround-interface" />
+        <module name="pyg-commodityManagementBackground-service" />
+        <module name="pyg-common" />
+        <module name="pyg-commondity-interface" />
+        <module name="pyg-commondity-service" />
+        <module name="pyg-dao" />
+        <module name="pyg-domain" />
+        <module name="pyg-newlycommodity-interface" />
+        <module name="pyg-newlycommodity-service" />
+        <module name="pyg-operatorManagerBackground-web" />
+        <module name="pyg-search-interface" />
+        <module name="pyg-search-service" />
+        <module name="pyg-search-web" />
+        <module name="pyg-websiteFrontDesk-interface" />
+        <module name="pyg-websiteFrontDesk-service" />
+        <module name="pyg-websiteFrontDesk-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pyg-advertisingManager-interface" target="1.8" />
+      <module name="pyg-advertisingManager-service" target="1.8" />
+      <module name="pyg-businessManagementIndenx-interface" target="1.8" />
+      <module name="pyg-businessManagementIndenx-service" target="1.8" />
+      <module name="pyg-businessManager-interface" target="1.8" />
+      <module name="pyg-businessmanager-interface" target="1.8" />
+      <module name="pyg-businessManager-service" target="1.8" />
+      <module name="pyg-businessManagerBackground" target="1.8" />
+      <module name="pyg-businessManagerBackground-interface" target="1.8" />
+      <module name="pyg-businessManagerBackground-service" target="1.8" />
+      <module name="pyg-businessManagerBackground-web" target="1.8" />
+      <module name="pyg-commodityManagement-interface" target="1.8" />
+      <module name="pyg-commodityManagement-service" target="1.8" />
+      <module name="pyg-commodityManagementBackGround-interface" target="1.8" />
+      <module name="pyg-commodityManagementBackground-service" target="1.8" />
+      <module name="pyg-common" target="1.8" />
+      <module name="pyg-commondity-interface" target="1.8" />
+      <module name="pyg-commondity-service" target="1.8" />
+      <module name="pyg-dao" target="1.8" />
+      <module name="pyg-domain" target="1.8" />
+      <module name="pyg-index-interface" target="1.8" />
+      <module name="pyg-index-service" target="1.8" />
+      <module name="pyg-indexinter-face" target="1.7" />
+      <module name="pyg-newlycommodity-interface" target="1.8" />
+      <module name="pyg-newlycommodity-service" target="1.8" />
+      <module name="pyg-operatorManager-Background" target="1.8" />
+      <module name="pyg-operatorManagerBackground" target="1.8" />
+      <module name="pyg-operatorManagerBackground-interface" target="1.8" />
+      <module name="pyg-operatorManagerBackground-service" target="1.8" />
+      <module name="pyg-operatorManagerBackground-web" target="1.8" />
+      <module name="pyg-parent" target="1.8" />
+      <module name="pyg-search-interface" target="1.8" />
+      <module name="pyg-search-service" target="1.8" />
+      <module name="pyg-search-web" target="1.8" />
+      <module name="pyg-typesofAvertisement-interface" target="1.8" />
+      <module name="pyg-typesofAvertisement-service" target="1.8" />
+      <module name="pyg-websiteFrontDesk" target="1.8" />
+      <module name="pyg-websiteFrontDesk-interface" target="1.8" />
+      <module name="pyg-websiteFrontDesk-service" target="1.8" />
+      <module name="pyg-websiteFrontDesk-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

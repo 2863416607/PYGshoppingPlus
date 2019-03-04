@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-businessManagementIndenx-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-businessManager-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-businessManagerBackground-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-businessManagerBackground-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-commodityManagement-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-commondity-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-index-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-newlycommodity-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-commondity-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-advertisingManager-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-businessManager-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-commodityManagementBackground-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-operatorManagerBackground-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-operatorManagerBackground-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-typesofAvertisement-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-websiteFrontDesk/pyg-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-websiteFrontDesk/pyg-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-websiteFrontDesk/pyg-websiteFrontDesk-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-parent/pyg-websiteFrontDesk/pyg-websiteFrontDesk-web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pyg-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-businessManager-interface/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-businessManagerBackground-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-businessManagerBackground-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-operatorManagerBackground-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-operatorManagerBackground-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-typesofAvertisement-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg-parent/pyg-operatorManagerBackground/pyg-typesofAvertisement-service/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>Resource managementJava</id>
+          </State>
+          <State>
+            <id>RoomAndroid</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>SecurityJava</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/pyg-parent/pyg-businessManagerBackground/pyg-businessManagerBackground-web/src/main/webapp/js/service/goodsService.js" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
