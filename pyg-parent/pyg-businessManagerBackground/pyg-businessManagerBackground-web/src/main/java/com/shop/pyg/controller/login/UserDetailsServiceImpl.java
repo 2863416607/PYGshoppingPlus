@@ -33,7 +33,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     public UserDetails loadUserByUsername(String username) {
         List<GrantedAuthority> grantAuths=new ArrayList();
         grantAuths.add(new SimpleGrantedAuthority("ROLE_SELLER"));
-        Seller seller = this.sellerService.selectOne(username);
+        Seller seller = this.sellerService.findUserByName(username);
         if(seller!=null){
             if(seller.getStatus().equals("1")){
                 return new User(username,seller.getPassword(),grantAuths);

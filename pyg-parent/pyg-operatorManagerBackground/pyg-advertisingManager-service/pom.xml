@@ -100,7 +100,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
                     <uriEncoding>UTF-8</uriEncoding>
-                    <port>8100</port>
+                    <port>9100</port>
                     <path>/pyg</path>
                 </configuration>
             </plugin>

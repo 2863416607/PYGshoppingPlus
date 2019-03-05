@@ -25,7 +25,7 @@ public class LoginController {
     public Seller viewLoginName(){
         String name= SecurityContextHolder.getContext().getAuthentication().getName();
 
-        Seller seller = this.sellerService.selectOne(name);
+        Seller seller = this.sellerService.findUserByName(name);
 
         return seller;
     }

@@ -20,8 +20,9 @@ public class SellerServiceImpl implements SellerService {
     @Autowired
     private SellerMapper sellerMapper;
 
+
     @Override
-    public Seller selectOne(String username) {
+    public Seller findUserByName(String username) {
 
 
         QueryWrapper<Seller> queryWrapper = new QueryWrapper<>();

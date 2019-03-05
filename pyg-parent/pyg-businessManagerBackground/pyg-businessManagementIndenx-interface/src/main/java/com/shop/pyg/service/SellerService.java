@@ -11,5 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public interface SellerService {
 
-    Seller selectOne(String username);
+
+    Seller findUserByName(String username);
 }
